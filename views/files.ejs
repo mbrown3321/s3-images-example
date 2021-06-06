@@ -1,0 +1,7 @@
+<ul>
+  <% uploads.forEach(upload => { %>
+  <li>
+    <a download href="<%= upload.url %>"><%= upload.file_name %></a>
+  </li>
+  <% }); %>
+</ul>

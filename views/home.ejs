@@ -1,0 +1,12 @@
+<% if (!user) { %>
+<p>
+  Welcome! Please <a href="/login">log in</a> or
+  <a href="/register">register</a>.
+</p>
+<% } else { %>
+<div>
+  <p><a href="/files">View Files</a></p>
+  <p><a href="/upload">Upload</a></p>
+  <p><a href="/logout">Log out</a></p>
+</div>
+<% } %>
